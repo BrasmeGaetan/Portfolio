@@ -1192,6 +1192,31 @@ body .wrapper.fade {
   opacity: 0;
   visibility: hidden;
 }
+footer .contact-info {
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+footer .contact-info h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer .contact-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+footer .contact-info a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+footer .contact-info a:hover {
+  text-decoration: underline;
+}
+
 body .wrapper span {
   display: inline-block;
   width: 15px;
@@ -1224,4 +1249,6 @@ body .wrapper span:nth-child(3) {
     ransform: translateY(0px);
     background-color: #415e97;
   }
+
+  
 }/*# sourceMappingURL=styles.css.map */
