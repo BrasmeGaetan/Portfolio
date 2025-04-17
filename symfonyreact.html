@@ -41,7 +41,7 @@
                 <div id="item-nav-menu" class="line-top-right-nav"></div>
                 <div id="item-nav-menu" class="line-bottom-left-nav"></div>
                 <i class="uil uil-user"></i>
-                <a href="tableau.html">À Tableau de Synthèse</a>
+                <a href="tableau.html">Tableau de Synthèse</a>
             </li>
 
             <li>
@@ -84,7 +84,7 @@
                 </li>
 
                 <li class="item-nav">
-                    <a href="tableau.html">À Tableau de Synthèse</a>
+                    <a href="tableau.html">Tableau de Synthèse</a>
                 </li>
 
                 <li class="item-nav">
@@ -109,61 +109,54 @@
     </nav>
 
     <section class="sct-project project-page">
-
         <div class="title-sct-project">
             <span>Projet réalisé en cours de formation</span>
-            <h1>Site de Bibliothèque </h1>
+            <h1>Plateforme de Séjour en Hôpital en React Native (en cours)</h1>
         </div>
 
         <div class="text-project">
 
-            <p><strong>Bibliothèque en ligne</strong> est un site web développé en <strong>PHP</strong> permettant aux utilisateurs d’emprunter des livres numériques et physiques via une interface simple et sécurisée. Le site propose un large choix de catégories telles que <strong>BD</strong>, <strong>Mangas</strong>, <strong>Documentaires</strong>, et bien d’autres.</p>
-          
+            <p><strong>Application tablette React Native avec API Symfony</strong> est une application développée pour un usage sur tablette, destinée au personnel infirmier. Ce projet repose sur une architecture moderne où <strong>Symfony</strong> joue le rôle de <strong>back-end</strong> et expose une <strong>API REST</strong> consommée par une interface <strong>React Native</strong>.</p>
+
             <h2>🎯 Objectif</h2>
             <ul>
-              <li>Mettre à disposition une bibliothèque en ligne accessible aux utilisateurs</li>
-              <li>Permettre l’emprunt de livres avec une date de retour fixée</li>
-              <li>Sécuriser les données des utilisateurs grâce à un système d’inscription</li>
-              <li>Permettre à un administrateur de gérer facilement le catalogue</li>
+              <li>Moderniser l'accès aux données hospitalières via une tablette</li>
+              <li>Permettre une interaction rapide et mobile avec le système</li>
+              <li>Utiliser une API sécurisée pour communiquer avec la base de données Symfony</li>
             </ul>
           
-            <p>Ce projet s’adresse aux <strong>passionnés de lecture</strong> qui souhaitent accéder à une bibliothèque moderne, et aux administrateurs chargés de la gestion des stocks et des utilisateurs.</p>
+            <p>L'application est principalement destinée aux <strong>infirmiers et personnels de santé</strong> qui doivent consulter ou modifier les données liées aux séjours des patients directement depuis une tablette.</p>
           
-            <h2>🧠 Fonctionnalités développées</h2>
-          
-            <h3>📚 Côté utilisateur :</h3>
+            <h2>🔗 Architecture du projet</h2>
             <ul>
-              <li>Inscription sécurisée avec protection des données personnelles</li>
-              <li>Navigation dans les différentes catégories de livres</li>
-              <li>Emprunt de livres avec gestion de la date limite de retour</li>
+              <li><strong>Back-end :</strong> Symfony – expose des routes API sécurisées (JWT, contrôleurs API dédiés)</li>
+              <li><strong>Front-end :</strong> React Native – consomme l’API pour afficher et interagir avec les données</li>
+              <li><strong>Communication :</strong> Requêtes HTTP (GET, POST, etc.) via Axios ou Fetch</li>
             </ul>
           
-            <h3>🛠️ Côté administrateur :</h3>
+            <h2>🧠 Fonctionnalités principales</h2>
             <ul>
-              <li>Ajout de nouveaux livres à la bibliothèque</li>
-              <li>Suppression de livres lorsqu’ils ne sont plus disponibles</li>
-              <li>Suivi des emprunts et des retours</li>
+              <li>Connexion sécurisée du personnel via token (authentification)</li>
+              <li>Récupération des séjours du jour via appel API</li>
+              <li>Validation de l’arrivée d’un patient (avec commentaires)</li>
+              <li>Consultation des séjours à une date spécifique</li>
+              <li>Synchronisation en temps réel avec la base Symfony</li>
             </ul>
           
             <h2>🛠️ Technologies utilisées</h2>
             <ul>
-              <li>PHP natif</li>
-              <li>MySQL</li>
-              <li>HTML / CSS</li>
+              <li>React Native (expo)</li>
+              <li>Symfony 6 (API Platform ou routes manuelles)</li>
+              <li>Axios (pour les appels API)</li>
+              <li>JWT pour la sécurité</li>
+              <li>PostgreSQL / MySQL</li>
             </ul>
           
             <h2>💡 Ce que j’ai appris</h2>
-            <p>Ce projet m’a permis de renforcer mes compétences en <strong>PHP</strong>, notamment dans la <strong>gestion des utilisateurs, la sécurité des données</strong> et l’organisation d’un projet structuré côté back-end. J’ai également appris à gérer les dates et les états d’emprunt des livres, un aspect important pour le suivi et la fiabilité du système.</p>
+            <p>Ce projet m’a permis de développer mes compétences dans la <strong>communication entre front-end et back-end</strong> via API. J’ai découvert les bonnes pratiques pour construire une API sécurisée, et comment consommer ces données efficacement depuis une application mobile.</p>
           
-            <p>Enfin, le système d’administration m’a donné une bonne expérience sur la <strong>gestion dynamique de contenu</strong> et la communication entre interfaces publiques et privées.</p>
-
-      <h2>📸 Captures d’écran</h2>
-      <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-
-        <!-- Ajoute d'autres screenshots si besoin -->
-      </div>
-     
-        </div>
+            <p>Travailler avec une base existante (le projet Symfony) m’a aussi demandé de bien comprendre la structure du back-end pour adapter les appels API, et de maintenir une cohérence entre les deux environnements.</p>
+          </div>
 
     </section>
 
